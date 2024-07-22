@@ -286,3 +286,44 @@ html, body {
     font-size: 16px;
     line-height: 1.5;
 }
+
+
+/* Content list */
+
+.title-2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.content-list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 570px;
+    row-gap: 40px;
+}
+
+.content-list__item {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-list__item a {
+    color: var(--black);
+    transition: 0,8;
+}
+
+.content-list__item a:hover {
+    opacity: 0.8;
+}
+
+.content-list__item p + p {
+    margin-top: 0.5em;
+}
